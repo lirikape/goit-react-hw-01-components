@@ -1,0 +1,88 @@
+:root {
+    --color1: red;
+    --color2: blue;
+    --color3: green;
+    --color4: orange;
+    --color5: aqua;
+  }
+  
+  /* Стилі для елементів <li> */
+  .statList .item:nth-child(1) {
+    background-color: var(--color1);
+  }
+  .statList .item:nth-child(2) {
+    background-color: var(--color2);
+  }
+  .statList .item:nth-child(3) {
+    background-color: var(--color3);
+  }
+  .statList .item:nth-child(4) {
+    background-color: var(--color4);
+  }
+  .statList .item:nth-child(5) {
+    background-color: var(--color5);
+  }
+
+.statistics {
+  
+    margin-top: 20px;
+    background-color: white;
+    margin-bottom: 20px;
+    
+  }
+  
+  .title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .statList {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+  }
+  .stat-list {
+    
+    list-style: none;
+    padding: 0;
+    /* margin: 20px 0 0; */
+  }
+  
+  .item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 112px;
+    height: 50px;
+    text-align: center;
+    margin-right: 0px;
+    
+  }
+  
+  .label {
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 500;
+  }
+  
+  .percentage {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .color-boxes {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .color-box {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    background-color: red; /* Ваші кольори */
+  }
