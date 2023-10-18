@@ -1,16 +1,11 @@
-export const App = () => {
-  return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
-    </div>
-  );
-};
+import user from './profile/user.json'
+import data from './data/data.json';
+import friends from './friends/friends.json';
+import transactions from './transaction/transactions.json';
+
+
+function App() {
+
+}
+
+export default App
