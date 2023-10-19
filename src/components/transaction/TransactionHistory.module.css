@@ -1,4 +1,4 @@
-.transaction-history {
+.transactionHistory {
     
     font-family: Arial, sans-serif;
     border-collapse: collapse;
@@ -10,23 +10,23 @@
     border: 1px solid #ddd;
   }
   
-  .transaction-history th,
+  .transactionHistory th,
   .transaction-history td {
     padding: 8px;
   }
   
-  .transaction-history thead {
+  .transactionHistory thead {
     background-color: #f2f2f2;
   }
   
-  .transaction-history th {
+  .transactionHistory th {
     background-color: #ddd;
   }
   
-  .transaction-history tbody tr:nth-child(odd) {
+  .transactionHistory tbody tr:nth-child(odd) {
     background-color: #f2f2f2;
   }
   
-  .transaction-history tbody tr:nth-child(even) {
+  .transactionHistory tbody tr:nth-child(even) {
     background-color: #fff;
   }
